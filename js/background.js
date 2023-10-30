@@ -72,8 +72,10 @@
       },
     });
   }
+
+  // navigate to my github profile after complete installation on any browser.
   r.runtime.onInstalled.addListener(({ reason: e }) => {
-    "install" === e && r.tabs.create({ url: "https://unhook.app/welcome" });
+    "install" === e && r.tabs.create({ url: "https://github.com/atomicno28" });
   }),
     r.runtime.setUninstallURL("https://unhook.app/uninstall");
   let c = {
