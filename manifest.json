@@ -1,5 +1,5 @@
 {
-   "author": "Unhook",
+   "author": "Nikhil_Brahmeshwar",
    "background": {
       "persistent": true,
       "scripts": [ "js/background.js" ]
@@ -7,7 +7,7 @@
    "browser_action": {
       "default_icon": "images/icon-128.png",
       "default_popup": "popup.html",
-      "default_title": "Unhook"
+      "default_title": "Focus"
    },
    "content_scripts": [ {
       "all_frames": true,
@@ -28,7 +28,7 @@
    "minimum_chrome_version": "49",
    "name": "Unhook - Remove YouTube Recommended Videos",
    "permissions": [ "storage", "webRequest", "https://www.youtube.com/*", "https://m.youtube.com/*" ],
-   "short_name": "Unhook",
+   "short_name": "Focus",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.6.2",
    "web_accessible_resources": [ "js/unhook-yt.js" ]
